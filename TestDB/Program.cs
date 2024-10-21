@@ -205,7 +205,7 @@ class Program
     #region Selection Sort
     public static int[] SelectionSort(int[] arr)
     {
-        for (int i = 1; i < arr.Length; i++)
+        for (int i = 0; i < arr.Length; i++)
         {
             int minIndex = i;
             for (int j = i + 1; j < arr.Length; j++)
